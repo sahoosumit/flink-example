@@ -6,7 +6,7 @@ version := "0.1"
 
 scalaVersion := "2.12.4"
 publishMavenStyle := true
-organization := "com.insuranceinbox"
+
 resolvers += "Local Maven Repository" at "file://"+Path.userHome.absolutePath+"/.m2/repository"
 
 
