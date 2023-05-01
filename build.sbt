@@ -7,9 +7,6 @@ version := "0.1"
 scalaVersion := "2.12.4"
 publishMavenStyle := true
 organization := "com.insuranceinbox"
-publishTo := Some("Artifactory Realm" at "https://artifactory.insuranceinbox.com/artifactory/sbt-plugin-releases-local")
-credentials += Credentials(Path.userHome / ".sbt" / ".credentials")
-resolvers += "Artifactory-Sbt" at "https://artifactory.insuranceinbox.com/artifactory/inbox-all-sbt/"
 resolvers += "Local Maven Repository" at "file://"+Path.userHome.absolutePath+"/.m2/repository"
 
 
